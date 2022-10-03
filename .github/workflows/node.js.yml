@@ -5,9 +5,6 @@ name: Node.js CI
 
 on:
   push: 
-    branches:
-      - main
-  workflow_dispatch:
   
 env:
   AZURE_WEBAPP_NAME: nodejsApp125647854 #my application name
